@@ -1,0 +1,91 @@
+Arguments: 
+  /Users/z001hgg/.nvm/versions/node/v12.8.0/bin/node /usr/local/Cellar/yarn/1.22.0/libexec/bin/yarn.js install
+
+PATH: 
+  /Users/z001hgg/.nvm/versions/node/v12.8.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/anaconda3/bin:/opt/anaconda3/condabin:/Users/z001hgg/.nvm/versions/node/v12.8.0/bin:/Users/z001hgg/Library/Android/sdk/platform-tools:/Users/z001hgg/Library/Android/sdk/tools/bin:/Users/z001hgg/Library/Android/sdk/tools:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/bin:/Users/z001hgg/Library/Android/sdk/platform-tools:/Users/z001hgg/Library/Android/sdk/tools/bin:/Users/z001hgg/Library/Android/sdk/tools:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/bin
+
+Yarn version: 
+  1.22.0
+
+Node version: 
+  12.8.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: unable to get local issuer certificate
+      at TLSSocket.onConnectSecure (_tls_wrap.js:1317:34)
+      at TLSSocket.emit (events.js:203:13)
+      at TLSSocket._finishInit (_tls_wrap.js:792:8)
+      at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:606:12)
+
+npm manifest: 
+  {
+    "name": "gsp_native_app",
+    "version": "5.3.1",
+    "description": "GSP Native app automation",
+    "scripts": {
+      "android.sauce.rdc.app": "./node_modules/.bin/wdio ./config/saucelabs/wdio.android.rdc.app.conf.js",
+      "android.app": "./node_modules/.bin/wdio ./config/wdio.android.app.conf.js",
+      "android.browser": "./node_modules/.bin/wdio ./config/wdio.android.browser.conf.js",
+      "chrome.browser": "./node_modules/.bin/wdio ./config/wdio.chrome.browser.conf.js",
+      "ios.app": "./node_modules/.bin/wdio ./config/wdio.ios.app.conf.js",
+      "ios.sauce.rdc.app": "./node_modules/.bin/wdio ./config/saucelabs/wdio.ios.rdc.app.conf.js",
+      "ios.browser": "./node_modules/.bin/wdio ./config/wdio.ios.browser.conf.js",
+      "lint": "eslint config tests"
+    },
+    "repository": {
+      "type": "git",
+      "url": ""
+    },
+    "keywords": [
+      "WebdriverIO",
+      "WebDriver",
+      "appium",
+      "native app",
+      "hybrid",
+      "android",
+      "ios"
+    ],
+    "author": "SHAIK",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/webdriverio/issues"
+    },
+    "homepage": "https://github.com/webdriverio/",
+    "dependencies": {},
+    "devDependencies": {
+      "@babel/cli": "^7.5.5",
+      "@babel/core": "^7.5.5",
+      "@babel/preset-env": "^7.5.5",
+      "@babel/register": "^7.5.5",
+      "@babel/traverse": "^7.5.5",
+      "@babel/types": "^7.5.5",
+      "@wdio/appium-service": "^5.12.1",
+      "@wdio/cli": "^5.12.4",
+      "@wdio/jasmine-framework": "^5.12.1",
+      "@wdio/local-runner": "^5.12.4",
+      "@wdio/sauce-service": "^5.12.1",
+      "@wdio/spec-reporter": "^5.12.1",
+      "@wdio/sync": "^5.12.3",
+      "babel-eslint": "^10.0.2",
+      "chromedriver": "^80.0.0",
+      "eslint": "^5.16.0",
+      "eslint-config-standard": "^12.0.0",
+      "eslint-plugin-import": "^2.18.2",
+      "eslint-plugin-node": "^7.0.1",
+      "eslint-plugin-promise": "^4.2.1",
+      "eslint-plugin-standard": "^4.0.1",
+      "eslint-plugin-wdio": "^5.12.1",
+      "node-fetch": "^2.3.0",
+      "wdio-chromedriver-service": "^5.0.2",
+      "webdriverio": "^5.12.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

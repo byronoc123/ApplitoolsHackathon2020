@@ -1,0 +1,2 @@
+export const DEFAULT_TIMEOUT = 15000;
+export const WEBVIEW_DEFAULT_TIMEOUT = 35000;
